@@ -19,7 +19,7 @@ En Azure, existe la opción de alquilar máquinas virtuales, por lo tanto, segú
 
 ---
 
-#### 2. Conectarse a la VM
+#### 2. Conectarse a la VM
 
 Me he conectado a la máquina virtual mediante SSH:
 
@@ -27,7 +27,7 @@ Me he conectado a la máquina virtual mediante SSH:
 
 ---
 
-#### 3. Instalar la paquetería necesaria en la VM
+#### 3. Instalar la paquetería necesaria en la VM
 
 ---
 
@@ -37,13 +37,17 @@ Para instalar Git, he usado [apt-get install git]:
 
 ![](doc/4_Instalación_Git.png)
 
-#### 5. Instalar Docker
+---
+
+#### 5. Instalar Docker
 
 He seguido los pasos indicados en esta página -> [Instalar Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es)
 
 Resumidamente, he seguido los pasos al detalle, aún que he tenido que instalar **gnupg** porque si no, no podía verificar la llave según indican los pasos.
 
 ![](doc/5_Docker_Instalado.png)
+
+---
 
 #### 6. Dockerizar GildedRose
 
